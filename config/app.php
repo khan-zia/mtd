@@ -2,6 +2,22 @@
 
 return [
 
+    'token_model_id' => env('TOKEN_MODEL_ID'),
+    'app_state' => env('APP_STATE'),
+    'auth_url' => env('AUTH_URL'),
+    'test_auth_url' => env('TEST_AUTH_URL'),
+    'token_url' => env('TOKEN_URL'),
+    'test_token_url' => env('TEST_TOKEN_URL'),
+    'base_api' => env('BASE_API'),
+    'test_base_api' => env('TEST_BASE_API'),
+    'client_id' => env('CLIENT_ID'),
+    'test_client_id' => env('TEST_CLIENT_ID'),
+    'client_secret' => env('CLIENT_SECRET'),
+    'test_client_secret' => env('TEST_CLIENT_SECRET'),
+    'redirect_url' => env('REDIRECT_URL'),
+    'vrn' => env('VRN'),
+    'test_vrn' => env('TEST_VRN'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Name

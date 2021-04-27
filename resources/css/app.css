@@ -2,4 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "datepicker/datepicker.min.css";
+
 @import "_custom";
+
+.title-line {
+    @apply text-gray-700 text-lg font-semibold;
+}
+
+.input {
+    @apply px-3 py-2 text-gray-700 border border-gray-700 bg-white rounded outline-none;
+}
+
+.btn {
+    @apply px-3 py-2 flex flex-wrap font-semibold rounded outline-none;
+}
+
+/* disabled:opacity-50 disabled:cursor-not-allowed */
+
+.btn-default {
+    @apply text-gray-700 bg-white border-2 border-gray-700;
+}
+
+.btn-primary {
+    @apply text-white bg-blue-500;
+}
+
+.btn-secondary {
+    @apply bg-indigo-100 text-indigo-500;
+}
+
+.btn-danger {
+    @apply text-red-500 bg-white border-2 border-red-400;
+}

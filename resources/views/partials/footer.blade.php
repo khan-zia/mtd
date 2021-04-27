@@ -1,5 +1,5 @@
-<footer class="footer">
+<footer class="footer bg-blue-100 text-blue-600">
   <div class="container">
-    <span class="text-muted">&copy Copyright {{ date('Y') }} River Solutions.</span>
+    <span>&copy Copyright {{ date('Y') }} River Solutions.</span>
   </div>
 </footer>
