@@ -2,6 +2,7 @@
 
 return [
 
+    'auth_token' => env('APP_AUTH_TOKEN'),
     'token_model_id' => env('TOKEN_MODEL_ID'),
     'app_state' => env('APP_STATE'),
     'auth_url' => env('AUTH_URL'),
