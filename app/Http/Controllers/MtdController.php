@@ -116,10 +116,10 @@ class MtdController extends Controller
             'totalVatDue' => $request->get('totalVatDue', ''),
             'vatReclaimedCurrPeriod' => $request->get('vatReclaimedCurrPeriod', ''),
             'netVatDue' => $request->get('netVatDue', ''),
-            'totalValueSalesExVAT' => $request->get('totalValueGoodsSuppliedExVAT', ''),
-            'totalValuePurchasesExVAT' => $request->get('totalAcquisitionsExVAT', ''),
-            'totalValueGoodsSuppliedExVAT' => $request->get('totalValueSalesExVAT', ''),
-            'totalAcquisitionsExVAT' => $request->get('totalValuePurchasesExVAT', ''),
+            'totalValueSalesExVAT' => $request->get('totalValueSalesExVAT', ''),
+            'totalValuePurchasesExVAT' => $request->get('totalValuePurchasesExVAT', ''),
+            'totalValueGoodsSuppliedExVAT' => $request->get('totalValueGoodsSuppliedExVAT', ''),
+            'totalAcquisitionsExVAT' => $request->get('totalAcquisitionsExVAT', ''),
             'finalised' => $request->get('finalised', ''), 
         ]);
     }
